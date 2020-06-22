@@ -45,7 +45,7 @@ namespace Middleware
             {
                 identity = (ClaimsIdentity)principal.Identity;
             }
-            catch (NullReferenceException e)
+            catch (NullReferenceException)
             {
                 return Guid.Empty;
             }
@@ -78,7 +78,7 @@ namespace Middleware
                       parameters, out securityToken);
                 return principal;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }
