@@ -4,6 +4,13 @@
 
 Microservices sample architecture using ASP.NET Core, Ocelot, MongoDB and JWT.
 
+# Development Environment
+
+- Visual Studio 2019
+- .NET Core 3.1
+- MongoDB
+- Postman
+
 # Architecture
 
 ![Architecture](https://www.codeproject.com/KB/cs/5271708/architecture.jpg)
