@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Store</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/jBox.all.min.css" rel="stylesheet" />
+    <link href="css/store.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <a href="/store.html">Store</a>
+        <a id="logout" href="#">Logout</a>
+    </div>
+    <input id="add" type="button" value="Add" class="btn btn-primary" />
+    <div id="item">
+        <table class="table">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" autocomplete="off" class="name form-control" /></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><input type="text" autocomplete="off" class="desc form-control" /></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="text" autocomplete="off" class="price form-control" /></td>
+            </tr>
+        </table>
+    </div>
+    <div id="item-footer">
+        <div id="item-footer-content">
+            <input type="button" value="Add" class="add btn btn-primary" />
+        </div>
+    </div>
+    <div class="catalog"></div>
+    <script src="js/settings.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jBox.all.min.js"></script>
+    <script src="js/store.js"></script>
+</body>
+</html>
